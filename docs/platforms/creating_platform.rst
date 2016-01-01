@@ -86,6 +86,9 @@ Packages
     * - ``framework-mbed``
       - `mbed Framework <http://mbed.org>`_
 
+    * - ``framework-simba``
+      - `RTOS and build framework <http://simba-os.readthedocs.org/>`_
+
     * - ``framework-spl``
       - `Standard Peripheral Library for STM32 MCUs <http://www.st.com/web/catalog/tools/FM147/CL1794/SC961/SS1743/PF257890>`_
 

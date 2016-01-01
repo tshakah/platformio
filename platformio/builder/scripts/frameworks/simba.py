@@ -14,7 +14,7 @@
 
 """Simba
 
-Simba is an RTOS and build framework. It aims to make embedded
+Simba is RTOS and build framework. It aims to make embedded
 programming easy and portable.
 
 http://simba-os.readthedocs.org
@@ -31,4 +31,4 @@ env.Replace(
     PLATFORMFW_DIR=join("$PIOPACKAGES_DIR", "framework-simba")
 )
 
-SConscript([env.subst(join("$PLATFORMFW_DIR", "make", "platformio.sconscript"))])
+SConscript(env.subst(join("$PLATFORMFW_DIR", "make", "platformio.sconscript")))

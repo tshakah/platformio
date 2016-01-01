@@ -34,6 +34,9 @@ Packages
     * - ``ldscripts``
       - `Linker Scripts <https://sourceware.org/binutils/docs/ld/Scripts.html>`_
 
+    * - ``framework-simba``
+      - `RTOS and build framework <http://simba-os.readthedocs.org/>`_
+
     * - ``toolchain-gccarmnoneeabi``
       - `gcc-arm-embedded <https://launchpad.net/gcc-arm-embedded>`_, `GDB <http://www.gnu.org/software/gdb/>`_
 
@@ -59,6 +62,9 @@ Frameworks
 
     * - :ref:`framework_arduino`
       - Arduino Framework allows writing cross-platform software to control devices attached to a wide range of Arduino boards to create all kinds of creative coding, interactive objects, spaces or physical experiences.
+
+    * - :ref:`framework_simba`
+      - Simba is RTOS and build framework. It aims to make embedded programming easy and portable.
 
 Boards
 ------

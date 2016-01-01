@@ -1,6 +1,16 @@
 Release History
 ===============
 
+PlatformIO 3.0
+--------------
+
+3.0.0 (2016-??-??)
+~~~~~~~~~~~~~~~~~~
+
+* Added support for `Simba <http://docs.platformio.org/en/latest/frameworks/simba.html>`__
+  framework
+  (`issue #412 <https://github.com/platformio/platformio/issues/412>`_)
+
 PlatformIO 2.0
 --------------
 
