@@ -62,6 +62,9 @@ def BuildProgram(env):
         )
 
     # enable "cyclic reference" for linker
+    print "==== env.get(\"LIBS\", deplibs): ===="
+    print env.get("LIBS", deplibs)
+    print "* start env.GetCompilerType() *"
     if env.get("LIBS", deplibs) and env.GetCompilerType() == "gcc":
         env.Prepend(
             _LIBFLAGS="-Wl,--start-group "
@@ -69,7 +72,7 @@ def BuildProgram(env):
         env.Append(
             _LIBFLAGS=" -Wl,--end-group"
         )
-
+    print "* end env.GetCompilerType() *"
     # Handle SRC_BUILD_FLAGS
     env.ProcessFlags([env.get("SRC_BUILD_FLAGS", None)])
 

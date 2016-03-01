@@ -251,14 +251,24 @@ def GetCompilerType(env):
         sysenv = environ.copy()
         sysenv['PATH'] = str(env['ENV']['PATH'])
         result = exec_command([env.subst("$CC"), "-v"], env=sysenv)
+        print "=====*exec_command result*===="
+        print result
     except OSError:
+        print "*OSError"
         return None
     if result['returncode'] != 0:
+        print "==== returncode ===="
+        print result['returncode']
         return None
     output = "".join([result['out'], result['err']]).lower()
+    print " === output: ===="
+    print output
+    print "==== type_ ===="
     for type_ in ("clang", "gcc"):
         if type_ in output:
+            print type_
             return type_
+    print "None"
     return None
 
 
