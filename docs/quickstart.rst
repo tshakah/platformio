@@ -15,7 +15,7 @@ Quick Start
 ===========
 
 .. note::
-    If you are looking for a Qucik Start for PlatformIO IDE please follow to
+    If you are looking for a Quick Start for PlatformIO IDE please follow to
     :ref:`PlatformIO IDE Quick Start <atom_ide_quickstart>` page.
 
 This tutorial introduces you to the basics of PlatformIO Command Line Interface
@@ -26,8 +26,8 @@ to work with the multiple development platforms and embedded boards.
 Setting Up the Project
 ----------------------
 
-PlatformIO CLI provides special :ref:`cmd_init` command for configuring your projects.
-It allows to initialize new empty project or update existing with the new data.
+PlatformIO CLI provides the special :ref:`cmd_init` command for configuring your projects.
+It can be used to initialize a new empty project or update existing projects with new data.
 
 What is more, :ref:`cmd_init` can be used for :ref:`ide`. It means that you will
 be able to import pre-generated PlatformIO project using favourite IDE and
@@ -59,9 +59,9 @@ platforms using *Arduino Wiring-based Framework*:
 Board Identifier
 ----------------
 
-:ref:`cmd_init` command requires to specify board identifier (ID/TYPE). It can
-be found using `Embedded Boards Explorer <http://platformio.org/boards>`_
-or :ref:`cmd_boards` command. For example, using :ref:`cmd_boards` let's try
+:ref:`cmd_init` command requires you to specify a board identifier (ID/TYPE). It can
+be found using the `Embedded Boards Explorer <http://platformio.org/boards>`_
+or the :ref:`cmd_boards` command. For example, using :ref:`cmd_boards` let's try
 to find Teensy boards:
 
 .. code-block:: bash
